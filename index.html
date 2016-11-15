@@ -16,8 +16,10 @@
 </head>
 
 <body>
-
-<!-- this is the heading section -->
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-2">menu </div>
+<div class="col-md-8"><!-- this is the heading section -->
 <center> <h1 class="myHeading"> Hello World! </h1> </center>
 
   <h1> The first section </h1>
@@ -46,11 +48,45 @@
     <li>Item 3</li>
   </ul>
   
-  <img src="imgs/cat.jpg" height="300">
+  <img src="imgs/cat.jpg" alt="my cat" class="img-circle" height="300">
+
+
+  <table class="table table-bordered">
+  <tr>
+  <td class="active"> active</td>
+  <td class="success">success</td>
+  <td class="warning">warning</td>
+  <td class="danger">danger</td>
+  <td class="info">info</td>
+  </tr>
+  <tr class="active"><td colspan="5">active</td></tr>
+  <tr class="success"><td colspan="5">success</td></tr>
+  <tr class="warning"><td colspan="5">warning</td></tr>
+  <tr class="danger"><td colspan="5">danger</td></tr>
+  <tr class="info"><td colspan="5">info</td></tr>
+
+  </table>
+
+  <p class="bg-primary">this is the code first training</p>
+ 
+ <a class="btn btn-default" href="#" role="button">Link</a>
+ <button class="btn btn-default" type="submit">Button</button>
+ <input class="btn btn-default" type="button" value="Input">
+ <input class="btn btn-default" type="submit" value="Submit">
+
+
+
+
+</div><!-- end content-->
+<div class="col-md-2">other </div>
+</div><!-- end row -->
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    </div><!-- end container -->
 </body>
 
 </html>
